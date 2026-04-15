@@ -1,0 +1,449 @@
+[0.361s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.361s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xf55d874c6cb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xf55d874c6800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xf55d874c6800>>, mixin_verb=('build',))
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.785s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ishman/panda_ws'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_bringup) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_bringup' with type 'ros.ament_cmake' and name 'panda_bringup'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_controller) by extension 'ros'
+[0.807s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_controller' with type 'ros.ament_cmake' and name 'panda_controller'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extension 'colcon_meta'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extensions ['ros']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_description) by extension 'ros'
+[0.809s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_description' with type 'ros.ament_cmake' and name 'panda_description'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_moveit) by extension 'ros'
+[0.812s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_moveit' with type 'ros.ament_cmake' and name 'panda_moveit'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_vision) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_vision' with type 'ros.ament_python' and name 'panda_vision'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.862s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ishman/panda_ws/install
+[0.863s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/humble
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_target' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.994s] DEBUG:colcon.colcon_core.verb:Building package 'panda_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishman/panda_ws/build/panda_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishman/panda_ws/install/panda_description', 'merge_install': False, 'path': '/home/ishman/panda_ws/src/panda_description', 'symlink_install': False, 'test_result_base': None}
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'cmake_target' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'panda_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.994s] DEBUG:colcon.colcon_core.verb:Building package 'panda_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishman/panda_ws/build/panda_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishman/panda_ws/install/panda_vision', 'merge_install': False, 'path': '/home/ishman/panda_ws/src/panda_vision', 'symlink_install': False, 'test_result_base': None}
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.997s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishman/panda_ws/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishman/panda_ws/install/pymoveit2', 'merge_install': False, 'path': '/home/ishman/panda_ws/src/pymoveit2', 'symlink_install': False, 'test_result_base': None}
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'cmake_target' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.997s] DEBUG:colcon.colcon_core.verb:Building package 'panda_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishman/panda_ws/build/panda_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishman/panda_ws/install/panda_controller', 'merge_install': False, 'path': '/home/ishman/panda_ws/src/panda_controller', 'symlink_install': False, 'test_result_base': None}
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'cmake_target' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'panda_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.997s] DEBUG:colcon.colcon_core.verb:Building package 'panda_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishman/panda_ws/build/panda_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishman/panda_ws/install/panda_moveit', 'merge_install': False, 'path': '/home/ishman/panda_ws/src/panda_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'cmake_args' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'cmake_target' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'panda_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.998s] DEBUG:colcon.colcon_core.verb:Building package 'panda_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishman/panda_ws/build/panda_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishman/panda_ws/install/panda_bringup', 'merge_install': False, 'path': '/home/ishman/panda_ws/src/panda_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.998s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.999s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ishman/panda_ws/src/panda_description' with build type 'ament_cmake'
+[1.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ishman/panda_ws/src/panda_description'
+[1.007s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.013s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ishman/panda_ws/src/panda_vision' with build type 'ament_python'
+[1.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_vision', 'ament_prefix_path')
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/hook/ament_prefix_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/hook/ament_prefix_path.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/hook/ament_prefix_path.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.017s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.019s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ishman/panda_ws/src/pymoveit2' with build type 'ament_cmake'
+[1.020s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ishman/panda_ws/src/pymoveit2'
+[1.020s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_description -- -j10 -l10
+[1.210s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ishman/panda_ws/src/panda_vision'
+[1.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_description -- -j10 -l10
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_description
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/pymoveit2 -- -j10 -l10
+[1.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_description)
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_description
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description' for CMake module files
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description' for CMake config files
+[1.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_description', 'cmake_prefix_path')
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/bin'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/lib/pkgconfig/panda_description.pc'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/lib/python3.10/site-packages'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/bin'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.zsh'
+[1.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_description/share/colcon-core/packages/panda_description)
+[1.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_description)
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description' for CMake module files
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description' for CMake config files
+[1.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_description', 'cmake_prefix_path')
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.sh'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/bin'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/lib/pkgconfig/panda_description.pc'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/lib/python3.10/site-packages'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_description/bin'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.ps1'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.sh'
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.bash'
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_description/share/panda_description/package.zsh'
+[1.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_description/share/colcon-core/packages/panda_description)
+[1.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ishman/panda_ws/src/panda_controller' with build type 'ament_cmake'
+[1.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ishman/panda_ws/src/panda_controller'
+[1.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ishman/panda_ws/src/panda_moveit' with build type 'ament_cmake'
+[1.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ishman/panda_ws/src/panda_moveit'
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_moveit': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_moveit -- -j10 -l10
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_controller -- -j10 -l10
+[1.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_moveit -- -j10 -l10
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_moveit': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_moveit
+[1.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_moveit)
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit' for CMake module files
+[1.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_moveit
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit' for CMake config files
+[1.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_moveit', 'cmake_prefix_path')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/hook/cmake_prefix_path.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/hook/cmake_prefix_path.dsv'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/hook/cmake_prefix_path.sh'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/bin'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/lib/pkgconfig/panda_moveit.pc'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/lib/python3.10/site-packages'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/bin'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.bash'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.zsh'
+[1.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_moveit/share/colcon-core/packages/panda_moveit)
+[1.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_moveit)
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit' for CMake module files
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit' for CMake config files
+[1.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_moveit', 'cmake_prefix_path')
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/hook/cmake_prefix_path.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/hook/cmake_prefix_path.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/hook/cmake_prefix_path.sh'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/bin'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/lib/pkgconfig/panda_moveit.pc'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/lib/python3.10/site-packages'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_moveit/bin'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.dsv'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.bash'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_moveit/share/panda_moveit/package.zsh'
+[1.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_moveit/share/colcon-core/packages/panda_moveit)
+[1.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/pymoveit2 -- -j10 -l10
+[1.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/pymoveit2
+[1.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2' for CMake module files
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/pymoveit2
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2' for CMake config files
+[1.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/lib'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/bin'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/bin'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.sh'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.bash'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[1.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2' for CMake module files
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2' for CMake config files
+[1.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/lib'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/bin'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/lib/python3.10/site-packages'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/pymoveit2/bin'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.bash'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[1.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_controller -- -j10 -l10
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_controller
+[1.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/src/panda_vision': PYTHONPATH=/home/ishman/panda_ws/build/panda_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_vision build --build-base /home/ishman/panda_ws/build/panda_vision/build install --record /home/ishman/panda_ws/build/panda_vision/install.log --single-version-externally-managed install_data
+[1.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_controller)
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller' for CMake module files
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_controller
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller' for CMake config files
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_controller', 'cmake_prefix_path')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/hook/cmake_prefix_path.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/hook/cmake_prefix_path.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/hook/cmake_prefix_path.sh'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/lib'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/bin'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/lib/pkgconfig/panda_controller.pc'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/lib/python3.10/site-packages'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/bin'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.sh'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.zsh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_controller/share/colcon-core/packages/panda_controller)
+[1.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_controller)
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller' for CMake module files
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller' for CMake config files
+[1.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_controller', 'cmake_prefix_path')
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/hook/cmake_prefix_path.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/hook/cmake_prefix_path.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/hook/cmake_prefix_path.sh'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/lib'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/bin'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/lib/pkgconfig/panda_controller.pc'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/lib/python3.10/site-packages'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_controller/bin'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.sh'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.bash'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.zsh'
+[1.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_controller/share/colcon-core/packages/panda_controller)
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision' for CMake module files
+[1.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/src/panda_vision' returned '0': PYTHONPATH=/home/ishman/panda_ws/build/panda_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_vision build --build-base /home/ishman/panda_ws/build/panda_vision/build install --record /home/ishman/panda_ws/build/panda_vision/install.log --single-version-externally-managed install_data
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision' for CMake config files
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision/lib'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision/lib/pkgconfig/panda_vision.pc'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages'
+[1.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_vision', 'pythonpath')
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/hook/pythonpath.ps1'
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/hook/pythonpath.dsv'
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/hook/pythonpath.sh'
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_vision/bin'
+[1.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_vision)
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/package.dsv'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/package.bash'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_vision/share/panda_vision/package.zsh'
+[1.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_vision/share/colcon-core/packages/panda_vision)
+[1.866s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ishman/panda_ws/src/panda_bringup' with build type 'ament_cmake'
+[1.866s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ishman/panda_ws/src/panda_bringup'
+[1.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_bringup': AMENT_PREFIX_PATH=/home/ishman/panda_ws/install/panda_vision:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble PYTHONPATH=/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:/home/ishman/panda_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_bringup -- -j10 -l10
+[2.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_bringup' returned '0': AMENT_PREFIX_PATH=/home/ishman/panda_ws/install/panda_vision:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble PYTHONPATH=/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:/home/ishman/panda_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_bringup -- -j10 -l10
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishman/panda_ws/build/panda_bringup': AMENT_PREFIX_PATH=/home/ishman/panda_ws/install/panda_vision:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble PYTHONPATH=/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:/home/ishman/panda_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_bringup
+[2.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_bringup)
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup' for CMake module files
+[2.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishman/panda_ws/build/panda_bringup' returned '0': AMENT_PREFIX_PATH=/home/ishman/panda_ws/install/panda_vision:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_moveit:/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/pymoveit2:/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_bringup:/home/ishman/panda_ws/install/panda_vision:/opt/ros/humble PYTHONPATH=/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:/home/ishman/panda_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_bringup
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup' for CMake config files
+[2.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_bringup', 'cmake_prefix_path')
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/hook/cmake_prefix_path.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/hook/cmake_prefix_path.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/hook/cmake_prefix_path.sh'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/bin'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/lib/pkgconfig/panda_bringup.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/lib/python3.10/site-packages'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/bin'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.sh'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.bash'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.zsh'
+[2.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_bringup/share/colcon-core/packages/panda_bringup)
+[2.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_bringup)
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup' for CMake module files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup' for CMake config files
+[2.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_bringup', 'cmake_prefix_path')
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/hook/cmake_prefix_path.ps1'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/hook/cmake_prefix_path.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/hook/cmake_prefix_path.sh'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/bin'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/lib/pkgconfig/panda_bringup.pc'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/lib/python3.10/site-packages'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/ishman/panda_ws/install/panda_bringup/bin'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.dsv'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.sh'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.bash'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishman/panda_ws/install/panda_bringup/share/panda_bringup/package.zsh'
+[2.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishman/panda_ws/install/panda_bringup/share/colcon-core/packages/panda_bringup)
+[2.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.255s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.328s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.328s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[2.328s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishman/panda_ws/install/local_setup.ps1'
+[2.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ishman/panda_ws/install/_local_setup_util_ps1.py'
+[2.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishman/panda_ws/install/setup.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishman/panda_ws/install/local_setup.sh'
+[2.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ishman/panda_ws/install/_local_setup_util_sh.py'
+[2.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishman/panda_ws/install/setup.sh'
+[2.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishman/panda_ws/install/local_setup.bash'
+[2.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishman/panda_ws/install/setup.bash'
+[2.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishman/panda_ws/install/local_setup.zsh'
+[2.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishman/panda_ws/install/setup.zsh'

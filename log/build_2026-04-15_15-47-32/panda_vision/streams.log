@@ -1,0 +1,21 @@
+[0.405s] Invoking command in '/home/ishman/panda_ws/src/panda_vision': PYTHONPATH=/home/ishman/panda_ws/build/panda_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_vision build --build-base /home/ishman/panda_ws/build/panda_vision/build install --record /home/ishman/panda_ws/build/panda_vision/install.log --single-version-externally-managed install_data
+[0.539s] running egg_info
+[0.539s] writing ../../build/panda_vision/panda_vision.egg-info/PKG-INFO
+[0.539s] writing dependency_links to ../../build/panda_vision/panda_vision.egg-info/dependency_links.txt
+[0.539s] writing entry points to ../../build/panda_vision/panda_vision.egg-info/entry_points.txt
+[0.539s] writing requirements to ../../build/panda_vision/panda_vision.egg-info/requires.txt
+[0.539s] writing top-level names to ../../build/panda_vision/panda_vision.egg-info/top_level.txt
+[0.539s] reading manifest file '../../build/panda_vision/panda_vision.egg-info/SOURCES.txt'
+[0.539s] writing manifest file '../../build/panda_vision/panda_vision.egg-info/SOURCES.txt'
+[0.540s] running build
+[0.540s] running build_py
+[0.540s] running install
+[0.540s] running install_lib
+[0.540s] running install_data
+[0.540s] running install_egg_info
+[0.541s] removing '/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages/panda_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[0.541s] Copying ../../build/panda_vision/panda_vision.egg-info to /home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages/panda_vision-0.0.0-py3.10.egg-info
+[0.543s] running install_scripts
+[0.554s] Installing colour_detector script to /home/ishman/panda_ws/install/panda_vision/lib/panda_vision
+[0.554s] writing list of installed files to '/home/ishman/panda_ws/build/panda_vision/install.log'
+[0.574s] Invoked command in '/home/ishman/panda_ws/src/panda_vision' returned '0': PYTHONPATH=/home/ishman/panda_ws/build/panda_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_vision build --build-base /home/ishman/panda_ws/build/panda_vision/build install --record /home/ishman/panda_ws/build/panda_vision/install.log --single-version-externally-managed install_data

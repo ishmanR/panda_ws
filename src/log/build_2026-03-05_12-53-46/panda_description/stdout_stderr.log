@@ -1,0 +1,126 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ishman/panda_ws/src/build/panda_description
+-- Install configuration: ""
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/launch
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/launch/gazebo.launch.py
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/launch/display.launch.py
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/camera.stl
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link0.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link4.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link0.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/hand.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/hand.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link4.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/finger.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link1.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link3.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link6.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/finger.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link2.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link1.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link7.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link7.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link5.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link2.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/camera.stl:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link6.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link5.dae:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/visual/link3.dae
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link3.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/camera.stl
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link5.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link1.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/hand.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link0.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link4.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link2.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link7.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/finger.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link4.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/finger.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link6.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link6.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link0.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link3.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link7.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link1.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/camera.stl:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link2.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/link5.obj:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/meshes/collision/hand.obj
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/urdf
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/urdf/gazebo.xacro
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/urdf/ros2controller.xacro
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/urdf/arm.xacro
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/urdf/panda.urdf.xacro
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/rviz
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/rviz/display.rviz
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/worlds
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/worlds/empty.world
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.config:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/materials
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.sdf:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.sdf
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.config
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.config:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/materials
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/materials/textures
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.sdf:Zone.Identifier
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.sdf
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.config
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/ament_index/resource_index/package_run_dependencies/panda_description
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/ament_index/resource_index/parent_prefix_path/panda_description
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/environment/ament_prefix_path.sh
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/environment/path.sh
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/environment/path.dsv
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/local_setup.bash
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/local_setup.sh
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/local_setup.zsh
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/local_setup.dsv
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/package.dsv
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/ament_index/resource_index/packages/panda_description
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/cmake/panda_descriptionConfig.cmake
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/cmake/panda_descriptionConfig-version.cmake
+-- Installing: /home/ishman/panda_ws/src/install/panda_description/share/panda_description/package.xml

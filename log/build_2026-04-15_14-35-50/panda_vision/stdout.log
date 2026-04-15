@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/panda_vision/panda_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/panda_vision/panda_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/panda_vision/panda_vision.egg-info/entry_points.txt
+writing requirements to ../../build/panda_vision/panda_vision.egg-info/requires.txt
+writing top-level names to ../../build/panda_vision/panda_vision.egg-info/top_level.txt
+reading manifest file '../../build/panda_vision/panda_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/panda_vision/panda_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+copying panda_vision/colour_detector.py -> /home/ishman/panda_ws/build/panda_vision/build/lib/panda_vision
+running install
+running install_lib
+copying /home/ishman/panda_ws/build/panda_vision/build/lib/panda_vision/colour_detector.py -> /home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages/panda_vision
+byte-compiling /home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages/panda_vision/colour_detector.py to colour_detector.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages/panda_vision-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/panda_vision/panda_vision.egg-info to /home/ishman/panda_ws/install/panda_vision/lib/python3.10/site-packages/panda_vision-0.0.0-py3.10.egg-info
+running install_scripts
+Installing colour_detector script to /home/ishman/panda_ws/install/panda_vision/lib/panda_vision
+writing list of installed files to '/home/ishman/panda_ws/build/panda_vision/install.log'

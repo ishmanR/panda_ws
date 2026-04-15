@@ -1,0 +1,7 @@
+setup.py
+panda_controller/__init__.py
+panda_controller/slider_controller.py
+panda_controller.egg-info/PKG-INFO
+panda_controller.egg-info/SOURCES.txt
+panda_controller.egg-info/dependency_links.txt
+panda_controller.egg-info/top_level.txt

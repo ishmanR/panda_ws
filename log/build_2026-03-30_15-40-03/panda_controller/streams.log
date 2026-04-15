@@ -1,0 +1,97 @@
+[0.043s] Invoking command in '/home/ishman/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble /usr/bin/cmake /home/ishman/panda_ws/src/panda_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ishman/panda_ws/install/panda_controller
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.710s] -- The CXX compiler identification is GNU 11.4.0
+[1.082s] -- Detecting C compiler ABI info
+[1.235s] -- Detecting C compiler ABI info - done
+[1.242s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.242s] -- Detecting C compile features
+[1.242s] -- Detecting C compile features - done
+[1.246s] -- Detecting CXX compiler ABI info
+[1.431s] -- Detecting CXX compiler ABI info - done
+[1.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.439s] -- Detecting CXX compile features
+[1.439s] -- Detecting CXX compile features - done
+[1.445s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.639s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.688s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.716s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.721s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.887s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.897s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.917s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.075s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.097s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.194s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.847s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.860s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.965s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.108s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.117s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.370s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.381s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.390s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.495s] -- Looking for pthread.h
+[4.751s] -- Looking for pthread.h - found
+[4.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.913s] -- Found Threads: TRUE  
+[5.017s] -- Found joint_trajectory_controller: 2.52.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[5.139s] -- Found joint_state_broadcaster: 2.52.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[5.266s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.362s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.363s] -- Added test 'lint_cmake' to check CMake code style
+[5.364s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.365s] -- Added test 'xmllint' to check XML markup files
+[5.367s] -- Configuring done
+[5.376s] -- Generating done
+[5.380s] -- Build files have been written to: /home/ishman/panda_ws/build/panda_controller
+[5.391s] Invoked command in '/home/ishman/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble /usr/bin/cmake /home/ishman/panda_ws/src/panda_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ishman/panda_ws/install/panda_controller
+[5.393s] Invoking command in '/home/ishman/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_controller -- -j10 -l10
+[5.442s] Built target ament_cmake_python_symlink_panda_controller
+[5.619s] running egg_info
+[5.619s] creating panda_controller.egg-info
+[5.619s] writing panda_controller.egg-info/PKG-INFO
+[5.619s] writing dependency_links to panda_controller.egg-info/dependency_links.txt
+[5.619s] writing top-level names to panda_controller.egg-info/top_level.txt
+[5.619s] writing manifest file 'panda_controller.egg-info/SOURCES.txt'
+[5.619s] reading manifest file 'panda_controller.egg-info/SOURCES.txt'
+[5.621s] writing manifest file 'panda_controller.egg-info/SOURCES.txt'
+[5.638s] Built target ament_cmake_python_build_panda_controller_egg
+[5.648s] Invoked command in '/home/ishman/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_controller -- -j10 -l10
+[5.650s] Invoking command in '/home/ishman/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_controller
+[5.664s] -- Install configuration: ""
+[5.664s] -- Execute custom install script
+[5.664s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller//launch/panda_controller.launch.py
+[5.665s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller//launch/slider_controller.launch.py
+[5.672s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller//config/panda_controllers.yaml
+[5.679s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/pythonpath.sh
+[5.686s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/pythonpath.dsv
+[5.694s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[5.702s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.710s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.719s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/top_level.txt
+[5.726s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/__init__.py
+[5.734s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/slider_controller.py
+[5.742s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/lib/panda_controller/slider_controller.py
+[5.750s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/ament_index/resource_index/package_run_dependencies/panda_controller
+[5.757s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/ament_index/resource_index/parent_prefix_path/panda_controller
+[5.765s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/ament_prefix_path.sh
+[5.787s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/ament_prefix_path.dsv
+[5.793s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/path.sh
+[5.802s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/path.dsv
+[5.810s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.bash
+[5.820s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.sh
+[5.827s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.zsh
+[5.834s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.dsv
+[5.842s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.dsv
+[5.851s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/ament_index/resource_index/packages/panda_controller
+[5.857s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/cmake/panda_controllerConfig.cmake
+[5.864s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/cmake/panda_controllerConfig-version.cmake
+[5.871s] -- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.xml
+[5.904s] Listing '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller'...
+[5.904s] Compiling '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/__init__.py'...
+[5.904s] Compiling '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/slider_controller.py'...
+[5.907s] Invoked command in '/home/ishman/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_controller

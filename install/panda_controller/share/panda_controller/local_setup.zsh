@@ -1,0 +1,1 @@
+/home/ishman/panda_ws/build/panda_controller/ament_cmake_environment_hooks/local_setup.zsh

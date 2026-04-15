@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000482] (panda_description) JobQueued: {'identifier': 'panda_description', 'dependencies': OrderedDict()}
+[0.000510] (panda_controller) JobQueued: {'identifier': 'panda_controller', 'dependencies': OrderedDict([('panda_description', '/home/ishman/panda_ws/install/panda_description')])}
+[0.000526] (panda_description) JobStarted: {'identifier': 'panda_description'}
+[0.007008] (panda_description) JobProgress: {'identifier': 'panda_description', 'progress': 'cmake'}
+[0.010099] (panda_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ishman/panda_ws/src/panda_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ishman/panda_ws/install/panda_description'], 'cwd': '/home/ishman/panda_ws/build/panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ishman'), ('OLDPWD', '/home/ishman/panda_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishman/panda_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishman'), ('NAME', 'Dwight'), ('WSL_INTEROP', '/run/WSL/19238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ishma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ishma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/snap/bin'), ('WT_SESSION', '0eda29ec-fea2-4eb9-b6c9-3bcf0636813a'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ishman/panda_ws/build/panda_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.100254] (-) TimerEvent: {}
+[0.200951] (-) TimerEvent: {}
+[0.285519] (panda_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301304] (-) TimerEvent: {}
+[0.403210] (-) TimerEvent: {}
+[0.505385] (-) TimerEvent: {}
+[0.607531] (-) TimerEvent: {}
+[0.709790] (-) TimerEvent: {}
+[0.811377] (-) TimerEvent: {}
+[0.913592] (-) TimerEvent: {}
+[1.015191] (-) TimerEvent: {}
+[1.072408] (panda_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.115976] (-) TimerEvent: {}
+[1.216854] (-) TimerEvent: {}
+[1.318412] (-) TimerEvent: {}
+[1.420555] (-) TimerEvent: {}
+[1.480401] (panda_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.521635] (-) TimerEvent: {}
+[1.624021] (-) TimerEvent: {}
+[1.726111] (-) TimerEvent: {}
+[1.777046] (panda_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.786601] (panda_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.793865] (panda_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.795345] (panda_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.803501] (panda_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.826593] (-) TimerEvent: {}
+[1.928576] (-) TimerEvent: {}
+[2.030611] (-) TimerEvent: {}
+[2.103640] (panda_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.110603] (panda_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.110933] (panda_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.111736] (panda_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.130350] (panda_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.130621] (-) TimerEvent: {}
+[2.231155] (-) TimerEvent: {}
+[2.278630] (panda_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.332132] (-) TimerEvent: {}
+[2.345480] (panda_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.402436] (panda_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.432811] (-) TimerEvent: {}
+[2.495383] (panda_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.498135] (panda_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.500293] (panda_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.506545] (panda_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.512278] (panda_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.519129] (panda_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.525155] (panda_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ishman/panda_ws/build/panda_description\n'}
+[2.531296] (panda_description) CommandEnded: {'returncode': 0}
+[2.531864] (panda_description) JobProgress: {'identifier': 'panda_description', 'progress': 'build'}
+[2.533765] (panda_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ishman/panda_ws/build/panda_description', '--', '-j10', '-l10'], 'cwd': '/home/ishman/panda_ws/build/panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ishman'), ('OLDPWD', '/home/ishman/panda_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishman/panda_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishman'), ('NAME', 'Dwight'), ('WSL_INTEROP', '/run/WSL/19238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ishma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ishma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/snap/bin'), ('WT_SESSION', '0eda29ec-fea2-4eb9-b6c9-3bcf0636813a'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ishman/panda_ws/build/panda_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[2.534012] (-) TimerEvent: {}
+[2.567607] (panda_description) CommandEnded: {'returncode': 0}
+[2.568130] (panda_description) JobProgress: {'identifier': 'panda_description', 'progress': 'install'}
+[2.574266] (panda_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ishman/panda_ws/build/panda_description'], 'cwd': '/home/ishman/panda_ws/build/panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ishman'), ('OLDPWD', '/home/ishman/panda_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishman/panda_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishman'), ('NAME', 'Dwight'), ('WSL_INTEROP', '/run/WSL/19238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ishma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ishma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/snap/bin'), ('WT_SESSION', '0eda29ec-fea2-4eb9-b6c9-3bcf0636813a'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ishman/panda_ws/build/panda_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[2.579287] (panda_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.579627] (panda_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.582522] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/launch/display.launch.py\n'}
+[2.590854] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/launch/gazebo.launch.py\n'}
+[2.599870] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/camera.stl\n'}
+[2.606942] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/camera.stl:Zone.Identifier\n'}
+[2.616935] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/finger.obj\n'}
+[2.623319] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/finger.obj:Zone.Identifier\n'}
+[2.631573] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/hand.obj\n'}
+[2.634203] (-) TimerEvent: {}
+[2.640149] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/hand.obj:Zone.Identifier\n'}
+[2.647404] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link0.obj\n'}
+[2.656647] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link0.obj:Zone.Identifier\n'}
+[2.668919] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link1.obj\n'}
+[2.669271] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link1.obj:Zone.Identifier\n'}
+[2.676022] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link2.obj\n'}
+[2.682193] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link2.obj:Zone.Identifier\n'}
+[2.688069] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link3.obj\n'}
+[2.694419] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link3.obj:Zone.Identifier\n'}
+[2.700953] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link4.obj\n'}
+[2.707948] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link4.obj:Zone.Identifier\n'}
+[2.713610] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link5.obj\n'}
+[2.720319] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link5.obj:Zone.Identifier\n'}
+[2.729038] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link6.obj\n'}
+[2.734516] (-) TimerEvent: {}
+[2.735627] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link6.obj:Zone.Identifier\n'}
+[2.742924] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link7.obj\n'}
+[2.748664] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/collision/link7.obj:Zone.Identifier\n'}
+[2.754621] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/camera.stl\n'}
+[2.762098] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/camera.stl:Zone.Identifier\n'}
+[2.771541] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/finger.dae\n'}
+[2.779463] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/finger.dae:Zone.Identifier\n'}
+[2.786346] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/hand.dae\n'}
+[2.795220] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/hand.dae:Zone.Identifier\n'}
+[2.802019] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link0.dae\n'}
+[2.810182] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link0.dae:Zone.Identifier\n'}
+[2.817989] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link1.dae\n'}
+[2.823834] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link1.dae:Zone.Identifier\n'}
+[2.829225] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link2.dae\n'}
+[2.834774] (-) TimerEvent: {}
+[2.835605] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link2.dae:Zone.Identifier\n'}
+[2.846842] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link3.dae\n'}
+[2.853530] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link3.dae:Zone.Identifier\n'}
+[2.860437] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link4.dae\n'}
+[2.866535] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link4.dae:Zone.Identifier\n'}
+[2.873838] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link5.dae\n'}
+[2.880615] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link5.dae:Zone.Identifier\n'}
+[2.889345] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link6.dae\n'}
+[2.897371] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link6.dae:Zone.Identifier\n'}
+[2.905189] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link7.dae\n'}
+[2.912790] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/meshes/visual/link7.dae:Zone.Identifier\n'}
+[2.921058] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/urdf/arm.xacro\n'}
+[2.927963] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/urdf/gazebo.xacro\n'}
+[2.935148] (-) TimerEvent: {}
+[2.941274] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/urdf/panda.urdf.xacro\n'}
+[2.952022] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/urdf/ros2control.xacro\n'}
+[2.958557] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/rviz/display.rviz\n'}
+[2.964939] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/worlds/empty.world\n'}
+[2.974168] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png\n'}
+[2.987352] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png:Zone.Identifier\n'}
+[2.995052] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE\n'}
+[3.002579] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE:Zone.Identifier\n'}
+[3.009575] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE\n'}
+[3.015921] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE:Zone.Identifier\n'}
+[3.024571] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.config\n'}
+[3.032917] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.config:Zone.Identifier\n'}
+[3.035438] (-) TimerEvent: {}
+[3.040555] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.sdf\n'}
+[3.051837] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_CoffeeTable_01/model.sdf:Zone.Identifier\n'}
+[3.059118] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png\n'}
+[3.066781] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png:Zone.Identifier\n'}
+[3.071622] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE\n'}
+[3.077675] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE:Zone.Identifier\n'}
+[3.084409] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE\n'}
+[3.094187] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE:Zone.Identifier\n'}
+[3.099859] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.config\n'}
+[3.106565] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.config:Zone.Identifier\n'}
+[3.112435] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.sdf\n'}
+[3.118932] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/models/aws_robomaker_residential_Trash_01/model.sdf:Zone.Identifier\n'}
+[3.125880] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/ament_index/resource_index/package_run_dependencies/panda_description\n'}
+[3.132511] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/ament_index/resource_index/parent_prefix_path/panda_description\n'}
+[3.135701] (-) TimerEvent: {}
+[3.139140] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/environment/ament_prefix_path.sh\n'}
+[3.146038] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/environment/ament_prefix_path.dsv\n'}
+[3.152123] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/environment/path.sh\n'}
+[3.158302] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/environment/path.dsv\n'}
+[3.166453] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/local_setup.bash\n'}
+[3.176414] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/local_setup.sh\n'}
+[3.185169] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/local_setup.zsh\n'}
+[3.194081] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/local_setup.dsv\n'}
+[3.200307] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/package.dsv\n'}
+[3.206870] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/ament_index/resource_index/packages/panda_description\n'}
+[3.213200] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/cmake/panda_descriptionConfig.cmake\n'}
+[3.221314] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/cmake/panda_descriptionConfig-version.cmake\n'}
+[3.228674] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_description/share/panda_description/package.xml\n'}
+[3.235907] (-) TimerEvent: {}
+[3.240381] (panda_description) CommandEnded: {'returncode': 0}
+[3.256281] (panda_description) JobEnded: {'identifier': 'panda_description', 'rc': 0}
+[3.257248] (panda_controller) JobStarted: {'identifier': 'panda_controller'}
+[3.297460] (panda_controller) JobProgress: {'identifier': 'panda_controller', 'progress': 'cmake'}
+[3.298911] (panda_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/ishman/panda_ws/src/panda_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ishman/panda_ws/install/panda_controller'], 'cwd': '/home/ishman/panda_ws/build/panda_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ishman'), ('OLDPWD', '/home/ishman/panda_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishman/panda_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishman'), ('NAME', 'Dwight'), ('WSL_INTEROP', '/run/WSL/19238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ishma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ishma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/snap/bin'), ('WT_SESSION', '0eda29ec-fea2-4eb9-b6c9-3bcf0636813a'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ishman/panda_ws/build/panda_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[3.336558] (-) TimerEvent: {}
+[3.416262] (panda_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.437041] (-) TimerEvent: {}
+[3.539107] (-) TimerEvent: {}
+[3.641183] (-) TimerEvent: {}
+[3.743212] (-) TimerEvent: {}
+[3.844114] (-) TimerEvent: {}
+[3.946046] (-) TimerEvent: {}
+[3.967521] (panda_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.047532] (-) TimerEvent: {}
+[4.151712] (-) TimerEvent: {}
+[4.253354] (-) TimerEvent: {}
+[4.339499] (panda_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.360964] (-) TimerEvent: {}
+[4.461862] (-) TimerEvent: {}
+[4.491845] (panda_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.499308] (panda_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.499466] (panda_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.499518] (panda_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.503223] (panda_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.562923] (-) TimerEvent: {}
+[4.667013] (-) TimerEvent: {}
+[4.687702] (panda_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.695631] (panda_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.695986] (panda_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.696676] (panda_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.701400] (panda_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.768726] (-) TimerEvent: {}
+[4.869816] (-) TimerEvent: {}
+[4.896124] (panda_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.945152] (panda_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.970204] (-) TimerEvent: {}
+[4.973292] (panda_controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.978235] (panda_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.071732] (-) TimerEvent: {}
+[5.144280] (panda_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.153941] (panda_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.172193] (-) TimerEvent: {}
+[5.174352] (panda_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.203464] (panda_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.234321] (panda_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.272901] (-) TimerEvent: {}
+[5.332411] (panda_controller) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[5.354473] (panda_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[5.373306] (-) TimerEvent: {}
+[5.451247] (panda_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[5.473805] (-) TimerEvent: {}
+[5.574797] (-) TimerEvent: {}
+[5.676835] (-) TimerEvent: {}
+[5.778724] (-) TimerEvent: {}
+[5.879531] (-) TimerEvent: {}
+[5.981565] (-) TimerEvent: {}
+[6.083714] (-) TimerEvent: {}
+[6.185713] (-) TimerEvent: {}
+[6.286660] (-) TimerEvent: {}
+[6.387550] (-) TimerEvent: {}
+[6.489581] (-) TimerEvent: {}
+[6.591558] (-) TimerEvent: {}
+[6.693607] (-) TimerEvent: {}
+[6.795563] (-) TimerEvent: {}
+[6.896168] (-) TimerEvent: {}
+[6.998254] (-) TimerEvent: {}
+[7.100896] (-) TimerEvent: {}
+[7.104348] (panda_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.116740] (panda_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.201419] (-) TimerEvent: {}
+[7.221519] (panda_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[7.302915] (-) TimerEvent: {}
+[7.364805] (panda_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.374063] (panda_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[7.403369] (-) TimerEvent: {}
+[7.505494] (-) TimerEvent: {}
+[7.607441] (-) TimerEvent: {}
+[7.627409] (panda_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.638064] (panda_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[7.647252] (panda_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[7.708461] (-) TimerEvent: {}
+[7.735287] (panda_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.752637] (panda_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.809486] (-) TimerEvent: {}
+[7.910043] (-) TimerEvent: {}
+[8.007737] (panda_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.008104] (panda_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.010189] (-) TimerEvent: {}
+[8.112005] (-) TimerEvent: {}
+[8.169135] (panda_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.170188] (panda_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.212747] (-) TimerEvent: {}
+[8.273632] (panda_controller) StdoutLine: {'line': b'-- Found joint_trajectory_controller: 2.52.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)\n'}
+[8.313498] (-) TimerEvent: {}
+[8.396001] (panda_controller) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.52.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[8.413994] (-) TimerEvent: {}
+[8.515915] (-) TimerEvent: {}
+[8.522805] (panda_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.617484] (-) TimerEvent: {}
+[8.619157] (panda_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.620359] (panda_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.620991] (panda_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.622617] (panda_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.623897] (panda_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.633564] (panda_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[8.636778] (panda_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/ishman/panda_ws/build/panda_controller\n'}
+[8.648520] (panda_controller) CommandEnded: {'returncode': 0}
+[8.648905] (panda_controller) JobProgress: {'identifier': 'panda_controller', 'progress': 'build'}
+[8.650113] (panda_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ishman/panda_ws/build/panda_controller', '--', '-j10', '-l10'], 'cwd': '/home/ishman/panda_ws/build/panda_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ishman'), ('OLDPWD', '/home/ishman/panda_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishman/panda_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishman'), ('NAME', 'Dwight'), ('WSL_INTEROP', '/run/WSL/19238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ishma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ishma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/snap/bin'), ('WT_SESSION', '0eda29ec-fea2-4eb9-b6c9-3bcf0636813a'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ishman/panda_ws/build/panda_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[8.698738] (panda_controller) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_panda_controller\n'}
+[8.717714] (-) TimerEvent: {}
+[8.819462] (-) TimerEvent: {}
+[8.875971] (panda_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.876140] (panda_controller) StdoutLine: {'line': b'creating panda_controller.egg-info\n'}
+[8.876173] (panda_controller) StdoutLine: {'line': b'writing panda_controller.egg-info/PKG-INFO\n'}
+[8.876201] (panda_controller) StdoutLine: {'line': b'writing dependency_links to panda_controller.egg-info/dependency_links.txt\n'}
+[8.876228] (panda_controller) StdoutLine: {'line': b'writing top-level names to panda_controller.egg-info/top_level.txt\n'}
+[8.876255] (panda_controller) StdoutLine: {'line': b"writing manifest file 'panda_controller.egg-info/SOURCES.txt'\n"}
+[8.876281] (panda_controller) StdoutLine: {'line': b"reading manifest file 'panda_controller.egg-info/SOURCES.txt'\n"}
+[8.877890] (panda_controller) StdoutLine: {'line': b"writing manifest file 'panda_controller.egg-info/SOURCES.txt'\n"}
+[8.895190] (panda_controller) StdoutLine: {'line': b'Built target ament_cmake_python_build_panda_controller_egg\n'}
+[8.904493] (panda_controller) CommandEnded: {'returncode': 0}
+[8.906884] (panda_controller) JobProgress: {'identifier': 'panda_controller', 'progress': 'install'}
+[8.906912] (panda_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ishman/panda_ws/build/panda_controller'], 'cwd': '/home/ishman/panda_ws/build/panda_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ishman'), ('OLDPWD', '/home/ishman/panda_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishman/panda_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishman'), ('NAME', 'Dwight'), ('WSL_INTEROP', '/run/WSL/19238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/ishma/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ishma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ishma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ishma/AppData/Local/Muse Hub/lib:/snap/bin'), ('WT_SESSION', '0eda29ec-fea2-4eb9-b6c9-3bcf0636813a'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_controller:/home/ishman/panda_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ishman/panda_ws/build/panda_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ishman/panda_ws/install/panda_description:/home/ishman/panda_ws/install/panda_controller:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[8.919840] (-) TimerEvent: {}
+[8.921427] (panda_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.921515] (panda_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.921589] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller//launch/panda_controller.launch.py\n'}
+[8.922322] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller//launch/slider_controller.launch.py\n'}
+[8.929047] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller//config/panda_controllers.yaml\n'}
+[8.936594] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/pythonpath.sh\n'}
+[8.943624] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/pythonpath.dsv\n'}
+[8.951357] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.959278] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.966780] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.975805] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.983532] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/__init__.py\n'}
+[8.990986] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/slider_controller.py\n'}
+[8.998832] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/lib/panda_controller/slider_controller.py\n'}
+[9.007112] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/ament_index/resource_index/package_run_dependencies/panda_controller\n'}
+[9.014676] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/ament_index/resource_index/parent_prefix_path/panda_controller\n'}
+[9.020325] (-) TimerEvent: {}
+[9.021959] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/ament_prefix_path.sh\n'}
+[9.044433] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/ament_prefix_path.dsv\n'}
+[9.050518] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/path.sh\n'}
+[9.059379] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/environment/path.dsv\n'}
+[9.067670] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.bash\n'}
+[9.077029] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.sh\n'}
+[9.083794] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.zsh\n'}
+[9.091402] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/local_setup.dsv\n'}
+[9.098654] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.dsv\n'}
+[9.108142] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/ament_index/resource_index/packages/panda_controller\n'}
+[9.113777] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/cmake/panda_controllerConfig.cmake\n'}
+[9.120670] (-) TimerEvent: {}
+[9.121623] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/cmake/panda_controllerConfig-version.cmake\n'}
+[9.128063] (panda_controller) StdoutLine: {'line': b'-- Symlinking: /home/ishman/panda_ws/install/panda_controller/share/panda_controller/package.xml\n'}
+[9.160949] (panda_controller) StdoutLine: {'line': b"Listing '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller'...\n"}
+[9.161043] (panda_controller) StdoutLine: {'line': b"Compiling '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/__init__.py'...\n"}
+[9.161077] (panda_controller) StdoutLine: {'line': b"Compiling '/home/ishman/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/slider_controller.py'...\n"}
+[9.164076] (panda_controller) CommandEnded: {'returncode': 0}
+[9.174228] (panda_controller) JobEnded: {'identifier': 'panda_controller', 'rc': 0}
+[9.174386] (-) EventReactorShutdown: {}
