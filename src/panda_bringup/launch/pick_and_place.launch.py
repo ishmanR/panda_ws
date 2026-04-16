@@ -46,20 +46,17 @@ def generate_launch_description():
     # ------------------- Vision Node -------------------
     vision_node = Node(
         package="panda_vision",
-        executable="color_detector",
-        name="color_detector",
+        executable="colour_detector",
+        name="colour_detector",
         output="screen"
     )
 
-    # ------------------- MoveIt Color Picker Node -------------------
+    # ------------------- Pick and Place Node -------------------
     color_picker_node = Node(
         package="pymoveit2",
         executable="pick_and_place.py",
         name="pick_and_place",
         output="screen",
-        parameters=[
-            {"target_color": "B"}  # {"target_color": "R"}, {"target_color": "G"}
-        ]
     )
 
     return LaunchDescription([
@@ -67,5 +64,5 @@ def generate_launch_description():
         controller,
         moveit,
         vision_node,
-        # color_picker_node,
+        color_picker_node,
     ])
