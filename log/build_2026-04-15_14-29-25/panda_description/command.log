@@ -1,4 +1,0 @@
-Invoking command in '/home/ishman/panda_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_description -- -j10 -l10
-Invoked command in '/home/ishman/panda_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ishman/panda_ws/build/panda_description -- -j10 -l10
-Invoking command in '/home/ishman/panda_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_description
-Invoked command in '/home/ishman/panda_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ishman/panda_ws/build/panda_description

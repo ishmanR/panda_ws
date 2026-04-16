@@ -1,1 +1,0 @@
-/home/ishman/panda_ws/src/panda_controller/launch/slider_controller.launch.py
