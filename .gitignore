@@ -3,3 +3,4 @@ install/
 log/
 src/build/
 src/log/
+.claude/
