@@ -4,7 +4,7 @@ from rclpy.node import Node
 from rclpy.duration import Duration
 import cv2
 import numpy as np
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import Image, CameraInfo
 from std_msgs.msg import String
 from cv_bridge import CvBridge
 import tf2_ros
@@ -18,6 +18,9 @@ class ColorDetector(Node):
         self.image_sub = self.create_subscription(
             Image, '/camera/image_raw', self.image_callback, 10)
 
+        self.camera_info_sub = self.create_subscription(
+            CameraInfo, 'camera/camera_info', self.camera_info_callback, 1)
+
         # Publisher
         self.coords_pub = self.create_publisher(String, '/color_coordinates', 10)
 
@@ -29,12 +32,24 @@ class ColorDetector(Node):
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
 
         # Camera intrinsic parameters (from your SDF)
-        self.fx = 585.0
-        self.fy = 588.0
+        self.fx = 585.8
+        self.fy = 585.8
         self.cx = 320.0
         self.cy = 160.0
 
+        self.camera_info_text = []
+
         self.get_logger().info("Color Detector Node Started with TF2 lookup transform")
+
+    def camera_info_callback(self, msg):
+        k = list(msg.k)
+        self.camera_info_text = [
+            f"Size: {msg.width}x{msg.height}",
+            f"fx:{k[0]:.1f} fy:{k[4]:.1f}",
+            f"cx:{k[2]:.1f} cy:{k[5]:.1f}",
+            f"Distortion: {msg.distortion_model}",
+        ]
+        self.destroy_subscription(self.camera_info_sub)
 
     def image_callback(self, msg):
         try:
@@ -129,6 +144,11 @@ class ColorDetector(Node):
                         self.get_logger().warn(f"TF lookup failed: {e}")
                     except Exception as e:
                         self.get_logger().error(f"Unexpected error in TF transform: {e}")
+
+        # Overlay camera info
+        for i, line in enumerate(self.camera_info_text):
+            cv2.putText(frame, line, (10, 20 + i * 20),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
         # Show image in window
         try:
